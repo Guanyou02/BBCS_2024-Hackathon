@@ -1,0 +1,2 @@
+images/snowman-clipart-md.png: https://creazilla.com/media/clipart/15885/snowman
+MerryChristmasFlake.ttf: https://www.dafont.com/merry-christmas.font
