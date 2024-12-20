@@ -4,7 +4,7 @@ const cors = require('cors')
 const app = express();
 // Enable CORS before setting up routes
 app.use(cors({
-    origin: 'http://127.0.0.1:5500',
+    origin: 'https://bbcs-2024-hackathon.vercel.app',
 }));
 
 app.use(express.json());
