@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         try {
             // Send POST request to backend with form data (this would require backend handling multipart data)
-            const response = await fetch('/api/wishes', {
+            const response = await fetch('http://localhost:3000/wishes', {
                 method: 'POST',
                 body: formData,  // Send the FormData
             });
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     const wishesContainer = document.getElementById('wishesContainer'); // Container for sticky notes
 
     try {
-        const response = await fetch('/api/wishes'); // Adjust URL to match your backend
+        const response = await fetch('http://localhost:3000/wishes'); // Adjust URL to match your backend
         if (response.ok) {
             const wishes = await response.json(); // Parse the JSON response
 
